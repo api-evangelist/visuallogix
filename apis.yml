@@ -1,8 +1,23 @@
 aid: visuallogix
 name: VisualLogix
-description: VisualLogix is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: VisualLogix develops mission-critical CAD, simulation, and analytical software used by engineers
+  who design and validate real-world physical systems. Its tools span computer-aided design, physics and
+  systems simulation, and analytical modeling for engineering teams building and testing products across
+  industrial, mechanical, and infrastructure domains. VisualLogix is backed by Insight Partners. As of this
+  profile the company publishes a marketing website (built with Figma Make) but exposes no public API,
+  developer portal, SDKs, or machine-readable discovery surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://visuallogix.com/_assets/v11/888400b1b093321599372c9f859e45dfec1b63d4.png
 url: https://raw.githubusercontent.com/api-evangelist/visuallogix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +27,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- CAD
+- Computer-Aided Design
+- Simulation
+- Engineering Software
+- Analytics
+- Modeling
 apis: []
+common:
+- type: Website
+  url: https://visuallogix.com/
+- type: DomainSecurity
+  url: security/visuallogix-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

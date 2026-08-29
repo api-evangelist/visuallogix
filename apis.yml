@@ -6,6 +6,17 @@ description: VisualLogix develops mission-critical CAD, simulation, and analytic
   industrial, mechanical, and infrastructure domains. VisualLogix is backed by Insight Partners. As of this
   profile the company publishes a marketing website (built with Figma Make) but exposes no public API,
   developer portal, SDKs, or machine-readable discovery surface.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
